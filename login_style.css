@@ -1,0 +1,94 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== BODY ===== */
+body {
+    background-image: url('gm.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ===== CONTAINER ===== */
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* ===== LOGIN BOX (FIXED FOR reCAPTCHA) ===== */
+.login-box {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+
+    /* 🔥 THIS IS THE KEY FIX */
+    width: 360px;          /* enough for captcha + padding */
+    max-width: 95vw;       /* mobile safe */
+}
+
+/* ===== TITLE ===== */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* ===== FORM ===== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.textbox input:focus {
+    border-color: #0066cc;
+    outline: none;
+}
+
+/* ===== CAPTCHA WRAPPER ===== */
+.captcha-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;   /* stops right-side overflow */
+}
+
+/* ===== BUTTON ===== */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #005bb5;
+}
+
+/* ===== SIGNUP LINK ===== */
+.signup-link {
+    text-align: center;
+    font-size: 0.9rem;
+}

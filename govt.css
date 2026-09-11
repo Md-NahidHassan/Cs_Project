@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;  /* Fix column widths */
+}
+
+th, td {
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    vertical-align: middle;
+    overflow: hidden;       /* Hide overflow text */
+    text-overflow: ellipsis; /* Show "..." for overflow */
+    white-space: nowrap;    /* Keep text in one line */
+}
+
+/* Set specific widths for each column */
+th:nth-child(1), td:nth-child(1) { width: 15%; }  /* Scheme Name */
+th:nth-child(2), td:nth-child(2) { width: 25%; }  /* Description (long text) */
+th:nth-child(3), td:nth-child(3) { width: 10%; }  /* Start Date */
+th:nth-child(4), td:nth-child(4) { width: 10%; }  /* End Date */
+th:nth-child(5), td:nth-child(5) { width: 10%; }  /* Eligibility */
+th:nth-child(6), td:nth-child(6) { width: 10%; }  /* Benefits */
+th:nth-child(7), td:nth-child(7) { width: 7%; }   /* Status */
+th:nth-child(8), td:nth-child(8) { width: 7%; }   /* Success Status */
+th:nth-child(9), td:nth-child(9) { width: 6%; }   /* Source */

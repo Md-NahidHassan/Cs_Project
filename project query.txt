@@ -1,0 +1,123 @@
+INSERT INTO weather (temp, rainfall, location, tips) VALUES
+(34.5, 12.3, 'Pallabi', 'Use mulch to retain soil moisture and water crops early morning.'),
+(32.1, 25.0, 'Mirpur', 'Ensure proper drainage to prevent waterlogging in fields.'),
+(30.8, 18.5, 'Dhanmondi', 'Apply fungicide to prevent fungal diseases due to humidity.'),
+(35.2, 5.4, 'Uttara', 'Irrigate crops twice a day to combat high heat stress.'),
+
+
+DELETE from weather;
+
+INSERT INTO weather (location, temp, rainfall, tips, time) VALUES
+('Mirpur', 32.5, 5.0, 'Water crops in the evening to avoid evaporation.', CURDATE()),
+('Dhanmondi', 31.2, 8.5, 'Prepare for potential flooding; reinforce drainage systems.', CURDATE()),
+('Gulshan', 33.0, 2.5, 'Apply mulch to crops to conserve moisture.', CURDATE()),
+('Banani', 34.5, 1.0, 'Increase irrigation for heat-stressed crops.', CURDATE()),
+('Uttara', 30.0, 6.5, 'Monitor crops for fungal diseases due to humidity.', CURDATE()),
+('Mohakhali', 31.8, 9.0, 'Ensure soil is not waterlogged; check for root rot.', CURDATE()),
+('Farmgate', 32.1, 7.5, 'Use pest control methods due to higher humidity levels.', CURDATE()),
+('Baridhara', 33.4, 3.2, 'Use shade nets to protect tender crops from intense sun.', CURDATE()),
+('Mohammadpur', 30.5, 10.0, 'Prepare for possible soil erosion; strengthen terraces.', CURDATE()),
+('Tejgaon', 32.0, 2.0, 'Prune crops for better airflow and reduce disease risk.', CURDATE()),
+
+('Narayanganj', 33.2, 1.5, 'Ensure adequate watering during dry conditions.', CURDATE()),
+('Savar', 29.5, 11.0, 'Apply fungicide to prevent fungal growth from excessive rain.', CURDATE()),
+('Gazipur', 28.8, 14.0, 'Prepare for waterlogging; improve drainage channels.', CURDATE()),
+('Tongi', 30.2, 5.5, 'Monitor for pests and insects attracted by warm, wet conditions.', CURDATE()),
+('Ashulia', 31.0, 3.0, 'Increase irrigation to keep soil moist during dry periods.', CURDATE()),
+('Khilgaon', 30.5, 8.5, 'Maintain soil health with organic compost due to humidity.', CURDATE()),
+('Shahbagh', 32.8, 6.0, 'Check for signs of wilting; water crops regularly.', CURDATE()),
+('Motijheel', 31.9, 7.8, 'Harvest early to avoid damage from incoming storms.', CURDATE()),
+('Badda', 32.3, 3.5, 'Use windbreaks to protect crops from strong winds.', CURDATE()),
+('Jatrabari', 31.5, 9.0, 'Fertilize crops to boost growth during wet conditions.', CURDATE()),
+
+('Chittagong', 29.5, 15.0, 'Increase drainage to prevent crop drowning in excessive rain.', CURDATE()),
+('Cox\'s Bazar', 28.0, 20.0, 'Secure crops from storm damage and excessive rain.', CURDATE()),
+('Sylhet', 27.5, 18.0, 'Monitor for crop diseases due to high rainfall.', CURDATE()),
+('Comilla', 30.0, 9.5, 'Check crops for root rot in areas with poor drainage.', CURDATE()),
+('Rajshahi', 36.0, 1.0, 'Increase watering for heat-stressed crops.', CURDATE()),
+('Rangpur', 25.5, 11.5, 'Protect soil from erosion due to heavy rainfall.', CURDATE()),
+('Khulna', 31.2, 7.0, 'Use irrigation systems to water crops during dry spells.', CURDATE()),
+('Barisal', 30.7, 8.0, 'Monitor crops for pests that thrive in wet conditions.', CURDATE()),
+('Jessore', 32.5, 6.5, 'Ensure proper irrigation for crops during the dry season.', CURDATE()),
+('Mymensingh', 29.8, 9.0, 'Apply mulch to conserve soil moisture.', CURDATE()),
+
+('Noakhali', 30.0, 12.0, 'Prepare for heavy rain; prevent crop damage by reinforcing soil barriers.', CURDATE()),
+('Pabna', 32.2, 2.0, 'Water crops in the early morning to prevent excessive evaporation.', CURDATE()),
+('Patuakhali', 29.0, 13.5, 'Check for soil erosion; secure crops from excessive rain.', CURDATE()),
+('Bhola', 28.5, 14.0, 'Ensure drainage to prevent crops from flooding.', CURDATE()),
+('Bogra', 30.4, 5.0, 'Use pest control methods as humidity increases.', CURDATE()),
+('Kushtia', 31.8, 7.5, 'Increase irrigation and mulch crops to protect them from dry conditions.', CURDATE()),
+('Narsingdi', 30.6, 9.5, 'Maintain soil fertility by adding compost.', CURDATE()),
+('Lakshmipur', 29.5, 10.2, 'Be prepared for wet weather; maintain soil structure.', CURDATE()),
+('Dinajpur', 27.8, 11.7, 'Increase irrigation during periods of low rainfall.', CURDATE()),
+('Chandpur', 29.0, 13.0, 'Check crops for signs of waterlogging.', CURDATE()),
+
+('Madaripur', 28.5, 12.5, 'Provide windbreaks to prevent damage from strong winds.', CURDATE()),
+('Shariatpur', 29.7, 11.5, 'Keep the soil moist to prevent crops from drying out.', CURDATE()),
+('Sunamganj', 26.5, 19.0, 'Watch for fungal infections due to excessive rain.', CURDATE()),
+('Habiganj', 27.5, 17.0, 'Prepare for wet weather; reinforce crop protection structures.', CURDATE()),
+('Netrokona', 28.2, 14.5, 'Ensure good drainage to protect crops from flooding.', CURDATE()),
+('Jhenaidah', 31.0, 6.0, 'Provide extra irrigation to crops during dry spells.', CURDATE()),
+('Chuadanga', 32.0, 3.5, 'Monitor crops for dehydration in the heat.', CURDATE()),
+('Meherpur', 33.0, 2.5, 'Water crops during the cooler hours of the day to avoid excessive evaporation.', CURDATE()),
+('Satkhira', 30.5, 7.2, 'Ensure proper irrigation to maintain crop growth.', CURDATE()),
+('Bagerhat', 31.3, 6.8, 'Mulch crops to retain soil moisture during dry periods.', CURDATE()),
+
+('Paris', 24.0, 3.0, 'Consider mulching to conserve water during dry spells.', CURDATE()),
+('New York', 22.0, 2.0, 'Monitor soil moisture; water crops as needed.', CURDATE()),
+('London', 20.5, 4.5, 'Prepare for cooler weather; protect tender crops.', CURDATE()),
+('Tokyo', 27.0, 7.0, 'Increase irrigation during dry periods to prevent crop stress.', CURDATE()),
+('Toronto', 19.0, 2.5, 'Cover crops to prevent frost damage in cold temperatures.', CURDATE()),
+('Sydney', 25.5, 6.0, 'Water crops early in the morning to avoid evaporation.', CURDATE()),
+('Berlin', 21.0, 5.5, 'Check soil moisture regularly and water as needed.', CURDATE()),
+('Moscow', 17.0, 1.0, 'Prepare crops for potential frost.', CURDATE()),
+('Dubai', 38.0, 0.0, 'Increase irrigation during extremely hot days to prevent crop dehydration.', CURDATE()),
+('Delhi', 35.5, 1.5, 'Water crops regularly to prevent wilting in the heat.', CURDATE()),
+
+('Singapore', 30.0, 9.0, 'Maintain drainage systems to avoid waterlogging.', CURDATE()),
+('Kuala Lumpur', 29.0, 11.0, 'Protect crops from pests attracted by high humidity.', CURDATE()),
+('Jakarta', 28.5, 14.0, 'Ensure good soil drainage to prevent waterlogging.', CURDATE()),
+('Bangkok', 32.5, 10.5, 'Maintain proper soil moisture to avoid crop stress.', CURDATE()),
+('Hong Kong', 27.5, 7.5, 'Use shade nets to protect crops from intense sun.', CURDATE()),
+('Seoul', 24.5, 5.0, 'Prune crops regularly to avoid overcrowding in wet conditions.', CURDATE()),
+('Beijing', 25.0, 2.5, 'Water crops early in the day to minimize evaporation.', CURDATE()),
+('Madrid', 26.0, 0.5, 'Protect crops from extreme heat by providing shade.', CURDATE()),
+('Rome', 27.5, 1.0, 'Water crops regularly to ensure they are properly hydrated.', CURDATE()),
+('Vienna', 23.5, 3.5, 'Ensure good drainage to avoid waterlogging in heavy rain.', CURDATE());
+INSERT INTO crops (crop_id, c_name, season, expected_yield, harvest_time, c_desp) VALUES
+(1, 'Rice', 'Kharif', 3000, 'November', 'Staple grain grown in water fields.'),
+(2, 'Wheat', 'Rabi', 2800, 'March', 'Major cereal crop for winter season.'),
+(3, 'Maize', 'Kharif', 3200, 'October', 'Popular cereal crop for food and fodder.'),
+(4, 'Jute', 'Kharif', 2000, 'August', 'Fiber crop used for making sacks.'),
+(5, 'Potato', 'Rabi', 2500, 'February', 'Tuber crop grown under the soil.'),
+(6, 'Sugarcane', 'Annual', 50000, 'December', 'Tall grass for sugar production.'),
+(7, 'Mustard', 'Rabi', 1800, 'March', 'Oilseed crop for cooking oil.'),
+(8, 'Tomato', 'Summer', 1500, 'June', 'Fruit vegetable, rich in vitamins.'),
+(9, 'Brinjal', 'Summer', 1400, 'July', 'Common vegetable also called eggplant.'),
+(10, 'Chili', 'Summer', 1300, 'July', 'Spicy vegetable used in curries.'),
+(11, 'Onion', 'Rabi', 2000, 'April', 'Essential kitchen vegetable.'),
+(12, 'Garlic', 'Rabi', 1500, 'April', 'Pungent vegetable for flavoring.'),
+(13, 'Peanut', 'Kharif', 2300, 'October', 'Legume grown for edible seeds.'),
+(14, 'Sesame', 'Kharif', 1100, 'September', 'Oilseed known for small seeds.'),
+(15, 'Sunflower', 'Kharif', 2500, 'October', 'Grown for seeds and oil.'),
+(16, 'Carrot', 'Winter', 1800, 'February', 'Root vegetable rich in Vitamin A.'),
+(17, 'Cauliflower', 'Winter', 1700, 'January', 'Popular white vegetable.'),
+(18, 'Cabbage', 'Winter', 1600, 'January', 'Leafy green vegetable.'),
+(19, 'Lentil', 'Rabi', 1400, 'March', 'Pulse crop rich in proteins.'),
+(20, 'Mango', 'Summer', 5000, 'June', 'King of fruits grown in hot climates.');
+
+
+ALTER TABLE `farmer` ADD `crop_id` INT NOT NULL AFTER `u_id`;
+ALTER TABLE `farmer` ADD CONSTRAINT `c_f` FOREIGN KEY (`crop_id`) REFERENCES `crop`(`crop_id`) ON DELETE RESTRICT ON UPDATE RESTRICT;
+ALTER TABLE `growth_status` ADD `f_id` INT NOT NULL AFTER `progress`;
+ALTER TABLE `growth_status` ADD CONSTRAINT `g_f` FOREIGN KEY (`f_id`) REFERENCES `farmer`(`f_id`) ON DELETE RESTRICT ON UPDATE RESTRICT;
+ALTER TABLE `crop_type` ADD `f_id` INT NOT NULL AFTER `type_name`;
+ALTER TABLE `crop_type` ADD `species` VARCHAR(100) NOT NULL AFTER `f_id`, ADD `price` DOUBLE NOT NULL AFTER `species`, ADD `Nutration value` DOUBLE NOT NULL AFTER `price`;
+
+ALTER TABLE farmer DROP FOREIGN key c_f;
+ALTER  table farmer drop  COLUMN  crop_id;
+//tr tag is used to add row
+UPDATE `crop` SET `season` = 'Monsoon' WHERE `crop`.`crop_id` = 3;
+
+
+

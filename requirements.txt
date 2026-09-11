@@ -1,0 +1,23 @@
+🗄️ Database Setup
+Follow the steps below to set up the database for this project:
+
+Open phpMyAdmin from XAMPP control panel.
+Create a new database named: farmsystem
+Navigate to the Import tab.
+Import the SQL file located at: Click
+This will automatically create all required tables such as user information, OTP storage, and other related data used for authentication and security.
+
+🚀 How to Run the Project
+To run this project on your local machine, follow the steps below:
+
+Install XAMPP on your system.
+
+Start Apache and MySQL from the XAMPP Control Panel.
+
+Copy the project folder and paste it into: *C:\xampp\htdocs*
+
+Open a web browser and go to: Click
+
+Make sure the database is properly imported before using the application. The application is now ready to use on localhost
+
+“We used PHP and MySQL with XAMPP, imported the database using phpMyAdmin, and ran the project through localhost.”

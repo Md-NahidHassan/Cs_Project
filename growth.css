@@ -1,0 +1,83 @@
+/* Apply a green background gradient */
+body {
+    background: linear-gradient(to bottom, #A8E6A3, #56D756); /* Soft green gradient */
+    font-family: Arial, sans-serif; /* Use a clean, modern font */
+    color: #2C6B2F; /* Dark green text color */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure full height */
+    display: flex;
+    justify-content: center; /* Center the content */
+    align-items: center; /* Center the content */
+    flex-direction: column;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    background-color: #f0f8f0; /* Light green background for the table */
+    border-radius: 10px; /* Rounded corners for the table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd; /* Light border for cells */
+    border-radius: 5px;
+}
+
+th {
+    background-color: #56D756; /* Green background for headers */
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    background-color: #f9f9f9; /* Slightly darker background for cells */
+}
+
+tr:nth-child(even) td {
+    background-color: #e3f6e3; /* Light green background for even rows */
+}
+
+tr:hover td {
+    background-color: #d1f7d1; /* Hover effect for rows */
+}
+
+/* Title or heading styling */
+h1 {
+    color: #2C6B2F; /* Dark green color for headings */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Styling for tips section */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e3f6e3;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+li:hover {
+    background-color: #d1f7d1;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 768px) {
+    table {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
