@@ -21,8 +21,8 @@ define('SMTP_ENABLED', true);
 define('SMTP_HOST', 'smtp.gmail.com');
 define('SMTP_PORT', 587);
 define('SMTP_SECURE', 'tls'); // 'tls' (STARTTLS) or 'ssl'
-define('SMTP_USERNAME', 'rakibraz202@gmail.com');
-define('SMTP_PASSWORD', 'lkoz dvyy dnis plug');
+define('SMTP_USERNAME', 'nahid1332020@gmail.com');
+define('SMTP_PASSWORD', 'jnokisayuvbmxpgm');
 
 // Where replies should go (optional)
 define('MAIL_REPLY_TO', '');

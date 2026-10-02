@@ -220,12 +220,23 @@ and other related data used for authentication and security.
 
 To run this project on your local machine, follow the steps below:
 
+### Method 1: Using XAMPP (Apache & MySQL)
 1. Install **XAMPP** on your system.
 2. Start **Apache** and **MySQL** from the XAMPP Control Panel.
-3. Copy the project folder and paste it into: \**C:\\xampp\\htdocs\**
+3. Copy the project folder and paste it into: \**C:\xampp\htdocs\**
 4. Open a web browser and go to: [**Click**](http://localhost/CS-project/login.php)
 5. Make sure the database is properly imported before using the application.
-The application is now ready to use on localhost
+
+### Method 2: Using VS Code Built-in Terminal (PHP Server)
+1. Open the **XAMPP Control Panel** and start ONLY **MySQL** (for the database).
+2. Open the project folder in **VS Code**.
+3. Open the VS Code terminal (`Ctrl` + `` ` ``).
+4. Run the following command:
+   ```bash
+   php -S localhost:8000
+   ```
+5. Open your web browser and go to: [**http://localhost:8000/login.php**](http://localhost:8000/login.php)
+6. Ensure the database is imported correctly before use.
 
    “We used PHP and MySQL with XAMPP, imported the database using phpMyAdmin, and ran the project through localhost.”
 
